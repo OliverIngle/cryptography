@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { cipher, deCipher, characters } from './ceasar-cipher';
+import { cipher, deCipher, characters } from './caesar-cipher';
 
 import chalk from 'chalk';
 import chalkAnimation from 'chalk-animation'

@@ -1,8 +1,8 @@
-# Ceasar cipher
+# Caesar cipher
 
 ## Description
 
-A Ceasar cypher consists of shiftint the charactersd of an input by a spectifed amount amongst a list of characters.
+A Caesar cypher consists of shiftint the charactersd of an input by a spectifed amount amongst a list of characters.
 
 ## Syntax
 
@@ -16,7 +16,7 @@ deCipher(text, shift);
 
 ## Examples
 
-*Using character set defined in **ceasar-cipher.js***
+*Using character set defined in **caesar-cipher.js***
 
 - `cipher("a", 2)` would return a value of `"c"`
 - `cipher("Hello world", 16)` would return a value of `"xu225pb582t"`
@@ -26,10 +26,10 @@ deCipher(text, shift);
 
 ## CLI tool
 
-Ceasar cipher is also a cli tool. Run the following command to try it out:
+Caesar cipher is also a cli tool. Run the following command to try it out:
 
 ```bash
-npx ceasar-cipher
+npx caesar-cipher
 ```
 
 (*Make sure you have Node.js installed and up to date on your system*)

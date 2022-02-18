@@ -1,8 +1,8 @@
 {
-  "name": "ceasar-cipher",
+  "name": "caesar-cipher",
   "version": "1.0.0",
   "description": "TypeScript implementation of the Ceasar cipher + CLI tool",
-  "main": "./dist/ceasar-cipher.js",
+  "main": "./dist/caesar-cipher.js",
   "scripts": {
     "start": "node dist/index.js",
     "build": "tsc",
@@ -15,8 +15,8 @@
   "keywords": [
     "cryptography",
     "cipher",
-    "ceasar-cipher",
-    "ceasar"
+    "caesar-cipher",
+    "caesar"
   ],
   "homepage": "https://github.com/OliverIngle/cryptography/tree/master/ceasar-cipher#readme",
   "bugs": {
