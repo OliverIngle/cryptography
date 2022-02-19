@@ -31,7 +31,7 @@ function wordSwap(de: boolean, word: string, capitalize: boolean = false): strin
 async function info() {
     console.log(
         `
-${chalk.bold("Ceasar cipher")}
+${chalk.bold("Caesar cipher")}
 \n\tShift characters among by a certain amount to encode a text.
 \t${chalk.blue("Character set:")}
         `
@@ -41,7 +41,7 @@ ${chalk.bold("Ceasar cipher")}
 
 async function title() {
     const title = chalkAnimation.glitch(
-        "Ceasar cipher\n"
+        "Caesar cipher\n"
     );
     await sleep(1000)
     title.stop()

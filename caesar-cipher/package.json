@@ -1,7 +1,7 @@
 {
   "name": "caesar-cipher",
-  "version": "1.0.0",
-  "description": "TypeScript implementation of the Ceasar cipher + CLI tool",
+  "version": "1.0.1",
+  "description": "TypeScript implementation of the Caesar cipher + CLI tool",
   "main": "./dist/caesar-cipher.js",
   "scripts": {
     "start": "node dist/index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/OliverIngle/cryptography/tree/master/ceasar-cipher"
+    "url": "https://github.com/OliverIngle/cryptography/tree/master/caesar-cipher"
   },
   "keywords": [
     "cryptography",
@@ -18,7 +18,7 @@
     "caesar-cipher",
     "caesar"
   ],
-  "homepage": "https://github.com/OliverIngle/cryptography/tree/master/ceasar-cipher#readme",
+  "homepage": "https://github.com/OliverIngle/cryptography/tree/master/caesar-cipher#readme",
   "bugs": {
     "url": "https://github.com/OliverIngle/cryptography/issues"
   },

@@ -4,4 +4,4 @@ This repository contains a collection of cryptography related projects. Feel fre
 
 ## Projects
 
-- [Ceasar cipher](https://github.com/OliverIngle/cryptography/tree/master/ceasar-cipher)
+- [Caesar cipher](https://github.com/OliverIngle/cryptography/tree/master/caesar-cipher)

@@ -4,9 +4,33 @@
 
 A Caesar cypher consists of shiftint the charactersd of an input by a spectifed amount amongst a list of characters.
 
+## Instalation
+
+```bash
+npm i caesar-cipher
+```
+
 ## Syntax
 
-```Javascript
+### Import
+
+- with `require`
+
+    ```javascript
+    const caesarCipher = require('caesar-cipher');
+    //or
+    const { cipher, deCipher } = require('caesar-cipher');
+    ```
+
+- with `import`
+
+    ```javascript
+    import { cipher, deCipher } from 'caesar-cipher';
+    ```
+
+### Usage
+
+```javascript
 cipher(text, shift);
 deCipher(text, shift);
 ```
