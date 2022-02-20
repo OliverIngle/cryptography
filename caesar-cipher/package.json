@@ -1,6 +1,6 @@
 {
-  "name": "caesar-cipher",
-  "version": "1.0.1",
+  "name": "@oliveringle/caesar-cipher",
+  "version": "1.0.2",
   "description": "TypeScript implementation of the Caesar cipher + CLI tool",
   "main": "./dist/caesar-cipher.js",
   "scripts": {

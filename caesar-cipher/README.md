@@ -2,12 +2,12 @@
 
 ## Description
 
-A Caesar cypher consists of shiftint the charactersd of an input by a spectifed amount amongst a list of characters.
+A Caesar cypher consists of shifting the charactersd of an input by a spectifed amount amongst a list of characters.
 
 ## Instalation
 
 ```bash
-npm i caesar-cipher
+npm i @oliveringle/caesar-cipher
 ```
 
 ## Syntax
@@ -17,15 +17,15 @@ npm i caesar-cipher
 - with `require`
 
     ```javascript
-    const caesarCipher = require('caesar-cipher');
+    const caesarCipher = require('@oliveringle/caesar-cipher');
     //or
-    const { cipher, deCipher } = require('caesar-cipher');
+    const { cipher, deCipher } = require('@oliveringle/caesar-cipher');
     ```
 
 - with `import`
 
     ```javascript
-    import { cipher, deCipher } from 'caesar-cipher';
+    import { cipher, deCipher } from '@oliveringle/caesar-cipher';
     ```
 
 ### Usage
@@ -53,7 +53,7 @@ deCipher(text, shift);
 Caesar cipher is also a cli tool. Run the following command to try it out:
 
 ```bash
-npx caesar-cipher
+npx @oliveringle/caesar-cipher
 ```
 
 (*Make sure you have Node.js installed and up to date on your system*)
